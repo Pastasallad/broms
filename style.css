@@ -1,0 +1,71 @@
+:root {
+    --bg: #000;
+    --text: #fff;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-size: 26px;
+    margin: auto;
+    width: clamp(300px, 100%, 960px);
+}
+
+header, section {
+    margin: 0 10px;
+}
+
+table {
+    width: 100%;
+}
+
+header table {
+    text-align: center;
+}
+
+header table tr:last-child td {
+    padding-top: 10px;
+}
+
+section table {
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+section table tr td:first-child {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+}
+
+section table tr:first-child td:first-child {
+    text-align: center;
+}
+
+button {
+    font-size: 1.3rem;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+input {
+    font-size: 3rem;
+    border: 1px solid gray;
+    background-color: var(--bg);
+    color: var(--text);
+    padding-left: 10px;
+}
+#ep {
+    width: 23px;
+    height: 23px;
+}
+
+.postfix {
+    font-size: 3rem;
+    margin-left: -3rem;
+    color: var(--text);
+}
