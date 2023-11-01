@@ -61,9 +61,15 @@ input {
     color: var(--text);
     padding-left: 10px;
 }
-#ep {
+label {display: block;}
+input#ep {
     width: 23px;
     height: 23px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
 }
 
 .postfix {
