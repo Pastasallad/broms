@@ -54,7 +54,7 @@ button {
 }
 
 input {
-    width: 135px;
+    width: 140px;
     font-size: 3rem;
     border: 1px solid gray;
     background-color: var(--bg);
@@ -70,6 +70,10 @@ input#ep {
     vertical-align: middle;
     position: relative;
     top: -2px;
+}
+
+input#ret {
+    width: 190px;
 }
 
 .postfix {
