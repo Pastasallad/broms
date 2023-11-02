@@ -228,7 +228,7 @@ const retardationstal = [
 function getRetardation(bromsprocent) {
     let out = retardationstal[bromsprocent];
     if (out == undefined || out == -1) {
-        out = ' -';
+        out = '-';
     }
     return out;
 }
@@ -236,7 +236,7 @@ function getRetardation(bromsprocent) {
 function getBromsprocent(ret) {
     let out = retardationstal.indexOf(Number(ret));
     if (out == undefined || out == -1) {
-        out = ' -';
+        out = '-';
     }
     return out;
 }

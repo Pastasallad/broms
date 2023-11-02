@@ -9,7 +9,7 @@ body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
     font-size: 26px;
     margin: auto;
-    width: clamp(300px, 100%, 960px);
+    width: clamp(300px, 100%, 800px);
 }
 
 header, section {
@@ -54,7 +54,7 @@ button {
 }
 
 input {
-    width: 140px;
+    width: 125px;
     font-size: 3rem;
     border: 1px solid gray;
     background-color: var(--bg);
@@ -72,12 +72,8 @@ input#ep {
     top: -2px;
 }
 
-input#ret {
-    width: 190px;
-}
-
 .postfix {
-    font-size: 3rem;
-    margin-left: -3.3rem;
-    color: var(--text);
+    font-size: 2rem;
+    margin-left: -2.3rem;
+    color: gray;
 }
