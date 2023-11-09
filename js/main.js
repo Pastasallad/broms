@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('../service-worker.js')
+            .then(reg => console.log('Service Worker: Registered'))
+            .catch(err => console.log(`Service Worker: Error: ${err}`))
+    });
+}
 /*  Tabellerna innehåller STH (Största tillåtna hastighet) i km/h
     förutom de negativa värdena som är enligt nedan.
     -1 = Ej tillåtet
