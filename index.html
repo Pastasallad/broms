@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Konvertera enkelt bromsprocent till STH och retardationstal.">
     <title>Broms</title>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="css/style.css">
@@ -18,11 +19,11 @@
             </tr>
             <tr>
                 <td>
-                     <input id="brake" type="text" inputmode="numeric" maxlength="3">
+                     <input id="brake" type="text" inputmode="numeric" maxlength="3" aria-label="Bromsprocent">
                      <span class="postfix">%</span>
                 </td>
                 <td>
-                    <input id="length" type="text" inputmode="numeric" maxlength="3">
+                    <input id="length" type="text" inputmode="numeric" maxlength="3" aria-label="Tåglängd">
                     <span class="postfix">m</span>
                 </td>
             </tr>
@@ -71,12 +72,12 @@
             </tr>
             <tr>
                 <td>
-                     <input id="bp" type="text" inputmode="numeric" maxlength="3" oninput="convBp(this.value)">
+                     <input id="bp" type="text" inputmode="numeric" maxlength="3" aria-label="Bromsprocent" oninput="convBp(this.value)">
                      <span class="postfix">%</span>
                 </td>
                 <td style="width: 1%;">⇄</td>
                 <td>
-                    <input id="ret" type="text" inputmode="numeric" maxlength="3" oninput="convRet(this.value)">
+                    <input id="ret" type="text" inputmode="numeric" maxlength="3" aria-label="Retardationstal" oninput="convRet(this.value)">
                 </td>
             </tr>
         </table>
