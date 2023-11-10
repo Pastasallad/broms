@@ -8,7 +8,7 @@ body {
     background-color: var(--bg);
     color: var(--text);
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    font-size: 26px;
+    font-size: 20px;
     margin: auto;
     width: clamp(300px, 100%, 800px);
 }
@@ -32,7 +32,6 @@ header table tr:last-child td {
 
 section table {
     font-family: monospace;
-    font-size: 1.2rem;
 }
 
 section table tr td:first-child {
