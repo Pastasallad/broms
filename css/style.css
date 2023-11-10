@@ -1,6 +1,7 @@
 :root {
     --bg: #000;
     --text: #fff;
+    --primary: #f90;
 }
 
 body {
@@ -47,7 +48,7 @@ section table tr:first-child td:first-child {
 button {
     font-size: 1.3rem;
     padding: 10px;
-    background-color: orange;
+    background-color: var(--primary);
     border: none;
     cursor: pointer;
     font-weight: 500;
